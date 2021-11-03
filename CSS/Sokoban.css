@@ -1,0 +1,31 @@
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 665px;
+    height: 560px;
+    background-color: darkslategray;
+}
+#grid div{               /*basebox*/
+    width: 33px;
+    height: 33px;
+    border: rgba(0, 0, 0, 0.15) solid 1px;
+}
+.boxWall{
+    background-color: chocolate;
+    border-radius: 2px;
+}
+.boxGoal{
+    background-color: green;
+}
+.boxSpace{
+    background-color: darkslategray;
+}
+.boxMovBlock{
+    background-color:rgb(83, 44, 16);
+    border-radius: 4px;
+}
+.boxPlayer{
+    background-color: lightcoral;
+    border-radius: 17.5px;
+    position: absolute y=11 x=11;
+}
